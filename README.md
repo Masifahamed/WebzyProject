@@ -99,22 +99,12 @@ For Linux
 $  source bin/activate
 ```
 
-**3. Clone this project**
-```
-$  git clone https://github.com/Ansarimajid/College-ERP.git
-```
-
-Then, Enter the project
-```
-$  cd College-ERP
-```
-
-**4. Install Requirements from 'requirements.txt'**
+**3. Install Requirements from 'requirements.txt'**
 ```python
 $  pip3 install -r requirements.txt
 ```
 
-**5. Add the hosts**
+**4. Add the hosts**
 
 - Got to settings.py file 
 - Then, On allowed hosts, Use **[]** as your host. 
@@ -124,7 +114,7 @@ ALLOWED_HOSTS = []
 *Do not use the fault allowed settings in this repo. It has security risk!*
 
 
-**6. Now Run Server**
+**5. Now Run Server**
 
 Command for PC:
 ```python
@@ -141,7 +131,7 @@ Command for Linux:
 $ python3 manage.py runserver
 ```
 
-**7. Login Credentials**
+**6. Login Credentials**
 
 Create Super User (HOD)
 Command for PC:
